@@ -7,7 +7,7 @@
 
 // console.log('ellipsisis!!!');
 
-var ellipsisis = function(text, max){
+var ellipsisis = function(text, max, ellipsis){
 	if(text.length>max){
 		var wordsArray = text
 			.substring(0,max).split(' ')
@@ -15,7 +15,7 @@ var ellipsisis = function(text, max){
 		wordsArray.pop();
 		var testCase = wordsArray.toString().replace(/,/g, ' ').trim();
 		var output = text.substring(0,testCase.length);
-		output = output + ' ...';
+		output = output + ellipsis || ' ...';
 	}else{
 		var output = text;
 	}
