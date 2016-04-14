@@ -10,4 +10,7 @@ $ npm install ellipsisis
 ```
 const ellipsisis = require('ellipsisis');
 console.log(ellipsisis('Hello world's end is coming to an end!',12));
+// Hello world ...
 
+console.log(ellipsisis('Hello world's end is coming to an end!',12,'***'));
+// Hello world***
