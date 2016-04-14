@@ -1,0 +1,25 @@
+{
+  "name": "ellipsisis",
+  "version": "1.0.0",
+  "description": "Truncates text string at spaces, then adds ellipsis at the end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ellipsisis('Hello world's end is coming to and end!',12);"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonilsuh/ellipsisis.git"
+  },
+  "keywords": [
+    "javascript",
+    "string",
+    "ellipsis",
+    "truncate"
+  ],
+  "author": "Wonil Suh <wonil@wonilsuh.com> (http://wonilSuh.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonilsuh/ellipsisis/issues"
+  },
+  "homepage": "https://github.com/wonilsuh/ellipsisis#readme"
+}
