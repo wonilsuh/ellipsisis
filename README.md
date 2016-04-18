@@ -9,8 +9,10 @@ $ npm install ellipsisis
 ### Usage
 ```
 const ellipsisis = require('ellipsisis');
-console.log(ellipsisis('Hello world's end is coming to an end!',12));
+console.log(ellipsisis('Hello world\'s end is coming to an end!',12));
 // Hello world ...
+// Adds ... after a space
 
-console.log(ellipsisis('Hello world's end is coming to an end!',12,'***'));
+console.log(ellipsisis('Hello world\'s end is coming to an end!',12,'***'));
 // Hello world***
+// adds the third argument as the ellipsis
